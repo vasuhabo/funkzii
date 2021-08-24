@@ -13,9 +13,13 @@ console.log(num);
 
 // result---->  Hello world! 20 20
 
+function calc(a, b)
 
+{return (a + b);}
 
-
+console.log(calc(4, 3));
+console.log(calc(5, 6));
+console.log(calc(10, 6));
 
 
 
