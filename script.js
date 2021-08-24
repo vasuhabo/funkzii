@@ -3,7 +3,7 @@
 let num = 20;// global variable
 
 function showFirstMessage(text)
-{console.log(text);  num = 10;  }//num = 10; local variable 
+{console.log(text); console.log(num); }//num = 10; local variable 
 
 
 
@@ -11,7 +11,7 @@ function showFirstMessage(text)
 showFirstMessage("Hello world!");// takes argument from here and puts in line 3 instead text,after puts it in line 4 instead text
 console.log(num);
 
-// result---->  Hello world! 10
+// result---->  Hello world! 20 20
 
 
 
