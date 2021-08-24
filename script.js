@@ -32,3 +32,19 @@ const anotherNum = ret();
 console.log(anotherNum);
 
 // result---->  50
+
+const logger = function ()
+
+{console.log("Hello") ;};
+
+logger();
+
+
+
+
+
+
+
+
+
+
