@@ -23,8 +23,12 @@ console.log(calc(10, 6));
 
 
 
+function ret()
 
+{ let num = 50; return num;}
 
+const anotherNum = ret();
 
+console.log(anotherNum);
 
-
+// result---->  50
