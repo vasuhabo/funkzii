@@ -40,6 +40,17 @@ const logger = function ()
 logger();
 
 
+// funkzii   strelochnie
+
+const kalc = (a, b) => { return a + b };
+
+const kkalc = (a, b) => a + b ;
+
+const kddalc = a => a + b ;
+
+
+const kafgdflc = (a, b) => {console.log; return a+b; };
+
 
 
 
